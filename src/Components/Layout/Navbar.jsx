@@ -1,11 +1,9 @@
-import React from 'react'
-
 const Navbar = () => {
   return (
     <nav id="navbar" className= "sticky top-0 z-[100] flex items-center justify-between px-[6vw] py-[18px] bg-[rgba(15,23,42,0.85)] border-b border-[var(--border)] transition-shadow duration-300">
-        <a href="#home" className="font-[var(--font-head)] text-[1.35rem] font-extrabold text-[var(--accent)] tracking-[-0.5px] no-underline">Anjali.</a>
-        <ul className="flex gap-8 list-none">
-            <li><a href="#home" style={{color: "var(--accent);"}}>Home</a></li>
+        <a href="#home" className="font-[var(--font-head)] text-[1.35rem] font-extrabold text-[var(--accent)] tracking-[-0.5px] no-underline">Anjali</a>
+        <ul className="hidden lg:flex gap-8 list-none">
+            <li><a href="#home" style={{color: "var(--accent)"}}>Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
