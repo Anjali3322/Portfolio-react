@@ -10,10 +10,10 @@ const AboutMe = () => {
         <div className="reveal reveal-delay-2 visible">
       <div className="relative">
         <div className="w-full aspect-square max-w-[340px] rounded-[20px] bg-[var(--bg3)] flex
-items-center justify-center text-[7rem] shadow-[var(--card-shadow)] border border-[var(--border)]
-relative overflow-hidden">👩&zwj;💻</div>
+          items-center justify-center text-[7rem] shadow-[var(--card-shadow)] border border-[var(--border)]
+          relative overflow-hidden">👩&zwj;💻</div>
         <div className="absolute bottom-[-10px] right-[-10px] bg-[var(--accent)] text-[#0a1a0a]
-rounded-[12px] px-[16px] py-[10px] font-bold text-[0.85rem] shadow-[0_4px_20px_var(--accent-glow)]">💚 Open to Work</div>
+          rounded-[12px] px-[16px] py-[10px] font-bold text-[0.85rem] shadow-[0_4px_20px_var(--accent-glow)]">💚 Open to Work</div>
       </div>
     </div>
     <div className="about-text reveal reveal-delay-3 visible">

@@ -1,10 +1,10 @@
 import Navbar from '../Layout/Navbar'
-import Banner from '../Modals/Banner'
-import AboutMe from '../Modals/AboutMe'
-import Skills from '../Modals/Skills'
-import Projects from '../Modals/Projects'
-import Experience from '../Modals/Experience'
-import Contact from '../Modals/Contact'
+import Banner from '../Sections/Banner'
+import AboutMe from '../Sections/AboutMe'
+import Skills from '../Sections/Skills'
+import Projects from '../Sections/Projects'
+import Experience from '../Sections/Experience'
+import Contact from '../Sections/Contact'
 import Footer from '../Layout/Footer'
 
 const Home = () => {
