@@ -41,7 +41,7 @@ const Projects = () => {
   return (
     <section id="projects">
 
-      <div className="project-card reveal reveal-delay-2 visible">
+      <div className="reveal visible">
         <span className="section-label">Things I've built</span>
       </div>
 
@@ -49,7 +49,7 @@ const Projects = () => {
         <h2 className="section-title">Projects</h2>
         <div className="section-line"></div>
       </div>
-
+      
       <div className="projects-grid">
 
         {projectsData.map((project , index)=>(

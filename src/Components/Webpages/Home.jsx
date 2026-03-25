@@ -6,6 +6,7 @@ import Projects from '../Sections/Projects'
 import Experience from '../Sections/Experience'
 import Contact from '../Sections/Contact'
 import Footer from '../Layout/Footer'
+import Loader from '../Sections/Loader'
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Experience/>
       <Contact/>
       <Footer/>
+      {/* <Loader/> */}
     </div>
   )
 }

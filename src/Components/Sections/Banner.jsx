@@ -14,11 +14,11 @@ const Banner = () => {
 manipulation, API integration, and modern UI practices. I build clean and responsive web interfaces that users love to interact with.</p>
     <div className="flex flex-wrap gap-[14px] animate-[fadeUp_0.6s_0.4s_ease_both]">
       <a href="#projects" className="btn btn-primary">
-        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 7h18M3 12h18M3 17h18"></path></svg>
+        <svg width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M3 7h18M3 12h18M3 17h18"></path></svg>
         View Projects
       </a>
       <a href="#" className="btn btn-outline" download="">
-        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 5v14M5 12l7 7 7-7"></path></svg>
+        <svg width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M12 5v14M5 12l7 7 7-7"></path></svg>
         Download Resume
       </a>
     </div>

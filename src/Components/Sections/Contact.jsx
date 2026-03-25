@@ -72,6 +72,11 @@ const Contact = () => {
           </div>
         </div>
 
+{/* <h1 class="titllle">
+  Recruitment just got a 
+  <span class="waveee">Glow-Up</span>
+</h1> */}
+
         <form className="contact-form" onSubmit={handleSubmit}>
 
           <div className="form-row">
@@ -97,16 +102,11 @@ const Contact = () => {
           <div className="form-submit-row">
             <button type="submit" disabled={loading} className="btn btn-primary">
             {loading ? "Sending..." : "Send Message"}
-            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d=""></path></svg>
+            <svg width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d=""></path></svg>
           </button>
           </div>
 
           {success && (
-            <div className="form-success">
-              ✅ Message Sent Successfully! I will get back to you soon.
-            </div>
-          )}
-          {success ||(
             <div className="form-success">
               ✅ Message Sent Successfully! I will get back to you soon.
             </div>
