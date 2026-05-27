@@ -1,4 +1,3 @@
-
 import ProjectsCard from "../UI/ProjectsCard"
 
 const Projects = () => {
@@ -10,7 +9,7 @@ const Projects = () => {
       link2: "⌥",
       title: "Solar Energy Website",
       desc: "A modern landing page for a solar energy company with animated stats, hero section, and lead capture form. Fully responsive across all devices.",
-      tech: ["React","CSS","JS"]
+      tech: ["HTML","CSS","JS"]
     },
     {
       icon : "📊",
@@ -18,7 +17,7 @@ const Projects = () => {
       link2: "⌥",
       title: "Manetor CRM Dashboard",
       desc: "A full-featured CRM dashboard with customer analytics, tracking, and interactive charts. Clean data visualization for sales teams.",
-      tech: ["React","API","Charts"]
+      tech: ["HTML","API","Charts", "JS"]
     },
     {
       icon : "🛒",
@@ -34,7 +33,7 @@ const Projects = () => {
       link2: "⌥",
       title: "Portfolio",
       desc: "I built my personal portfolio using React.js where I focused on component-based architecture and dynamic rendering of project data using map(). I also implemented reusable UI components and loading states to improve scalability and user experience.",
-      tech: ["React","Context","CSS"]
+      tech: ["React","Context","CSS", "Tailwind CSS"]
     },
   ]
 

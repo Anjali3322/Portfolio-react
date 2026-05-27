@@ -52,7 +52,7 @@ const Contact = () => {
             <div className="contact-link">
               <div className="contact-link-icon">📧</div>
               <div className="pages-link">
-                <strong>Email</strong>  <a href="sethanjali332@gmail.com" target="blank">sethanjali332@gmail.com</a>
+                <strong>Email</strong>  <a href="mailto:sethanjali332@gmail.com" target="blank"  rel="noopener noreferrer">sethanjali332@gmail.com</a>
               </div>
             </div>
 
@@ -71,11 +71,6 @@ const Contact = () => {
             </div>
           </div>
         </div>
-
-{/* <h1 class="titllle">
-  Recruitment just got a 
-  <span class="waveee">Glow-Up</span>
-</h1> */}
 
         <form className="contact-form" onSubmit={handleSubmit}>
 

@@ -1,3 +1,7 @@
+
+import { FiExternalLink } from "react-icons/fi"
+import { FiGithub } from "react-icons/fi"
+
 const ProjectsCard = ({data}) => {
 
   return (
@@ -6,8 +10,8 @@ const ProjectsCard = ({data}) => {
     <div className="project-top">
         <span className="project-folder">{data.icon}</span>
         <div className="project-links">
-          <a href="#" className="project-link" title="Live Demo">{data.link1}</a>
-          <a href="#" className="project-link" title="GitHub">{data.link2}</a>
+          <a href="#" className="project-link" title="Live Demo">{<FiExternalLink/>}</a>
+          <a href="#" className="project-link" title="GitHub">{<FiGithub/>}</a>
         </div>
       </div>
       <div  className="project-name">{data.title}</div>

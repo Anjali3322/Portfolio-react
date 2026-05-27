@@ -1,4 +1,5 @@
-import React from 'react'
+import { CgWebsite } from "react-icons/cg";
+import { FaTools } from "react-icons/fa";
 import SkillsCard from '../UI/SkillsCard'
 
 const Skills = () => {
@@ -11,7 +12,13 @@ const Skills = () => {
     { icon : "💛",
       name: "JavaScript" },
     { icon : "⚛️",
-      name: "React" }
+      name: "React JS" },
+      {
+        icon:"💛",
+        name:"Tailwind CSS"
+      },
+      { icon : "📱",
+      name: "Responsive Design" }
   ]
 
     const skillsData2 = [
@@ -21,8 +28,7 @@ const Skills = () => {
       name: "vscode" },
     { icon : "🔌", 
       name: "API Integration" },
-    { icon : "📱",
-      name: "Responsive Design" }
+    
   ]
   return (
     <section id="skills">
@@ -35,7 +41,7 @@ const Skills = () => {
       </div>
       <div className="flex flex-col gap-10">
         <div className="skills-group reveal reveal-delay-2 visible">
-          <h3>⚡ Frontend</h3>
+          <h3><CgWebsite /> Frontend</h3>
           <div className="skills-grid">
 
             {skillsData1.map((skills , index)=>(
@@ -45,7 +51,7 @@ const Skills = () => {
           </div>
         </div>
         <div className="skills-group reveal reveal-delay-3 visible">
-          <h3>🛠 Tools &amp; Other</h3>
+          <h3><FaTools /> Tools &amp; Other</h3>
           <div className="skills-grid">
             {skillsData2.map((skills , index)=>(
           <SkillsCard key={index} data={skills}/>
