@@ -25,7 +25,7 @@ const Banner = () => {
           <a href="#projects" className="btn btn-primary">
             <GiHamburgerMenu /> View Projects
           </a>
-          <a href="/public/Anjali-Frontend-Resume.pdf" className="btn btn-outline" download >
+          <a href="/Anjali-Frontend-Resume.pdf" className="btn btn-outline" download >
             <FaDownload /> Download Resume
           </a>
         </div>
