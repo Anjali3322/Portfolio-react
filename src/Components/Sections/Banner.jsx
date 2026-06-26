@@ -1,5 +1,6 @@
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaDownload } from "react-icons/fa";
+import ProfileImage from "./ProfileImage";
 
 const Banner = () => {
   return (
@@ -36,6 +37,8 @@ const Banner = () => {
           </a>
         </div>
       </div>
+
+      <ProfileImage/>
     </section>
   );
 };
